@@ -1,0 +1,32 @@
+{
+  "freelancer": [
+    "client-brief-analyzer",
+    "proposal-writer",
+    "project-scope-planner",
+    "pricing-calculator",
+    "professional-email",
+    "portfolio-case-study"
+  ],
+  "student": [
+    "study-any-topic",
+    "fyp-project-manager",
+    "assignment-researcher",
+    "interview-griller",
+    "resume-builder",
+    "learn-in-30-days"
+  ],
+  "all": [
+    "client-brief-analyzer",
+    "proposal-writer",
+    "project-scope-planner",
+    "pricing-calculator",
+    "professional-email",
+    "portfolio-case-study",
+    "study-any-topic",
+    "fyp-project-manager",
+    "assignment-researcher",
+    "interview-griller",
+    "resume-builder",
+    "learn-in-30-days"
+  ]
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Skills for Everyone - Agent Skills for freelancers, students and first jobs">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e3a5f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <circle cx="1080" cy="40" r="150" fill="#38bdf8" opacity="0.12"/>
+  <circle cx="120" cy="300" r="130" fill="#a78bfa" opacity="0.12"/>
+  <text x="600" y="118" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="bold" fill="#ffffff">Skills for <tspan fill="url(#accent)">Everyone</tspan></text>
+  <text x="600" y="168" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#cbd5e1">12 Agent Skills for Freelancers, Students &amp; First Jobs</text>
+  <text x="600" y="222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#94a3b8">Claude Code  •  Google Antigravity  •  Cursor  •  Codex  •  Gemini CLI</text>
+  <rect x="435" y="248" width="330" height="38" rx="19" fill="none" stroke="url(#accent)" stroke-width="2"/>
+  <text x="600" y="273" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#e2e8f0">Superpowers is for coders. This is for everyone else.</text>
+</svg>
