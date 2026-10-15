@@ -1,20 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Skills for Everyone - Agent Skills for freelancers, students and first jobs">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Skills for Everyone - Agent Skills for freelancers, students and first jobs">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f172a"/>
-      <stop offset="1" stop-color="#1e3a5f"/>
+      <stop offset="0" stop-color="#0a1122"/>
+      <stop offset="0.55" stop-color="#101d38"/>
+      <stop offset="1" stop-color="#1d3358"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#38bdf8"/>
-      <stop offset="1" stop-color="#a78bfa"/>
+      <stop offset="0.55" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#c084fc"/>
     </linearGradient>
+    <linearGradient id="pillfill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#c084fc" stop-opacity="0.16"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#93c5fd" opacity="0.20"/>
+    </pattern>
   </defs>
-  <rect width="1200" height="320" fill="url(#bg)"/>
-  <circle cx="1080" cy="40" r="150" fill="#38bdf8" opacity="0.12"/>
-  <circle cx="120" cy="300" r="130" fill="#a78bfa" opacity="0.12"/>
-  <text x="600" y="118" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="bold" fill="#ffffff">Skills for <tspan fill="url(#accent)">Everyone</tspan></text>
-  <text x="600" y="168" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#cbd5e1">12 Agent Skills for Freelancers, Students &amp; First Jobs</text>
-  <text x="600" y="222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#94a3b8">Claude Code  •  Google Antigravity  •  Cursor  •  Codex  •  Gemini CLI</text>
-  <rect x="435" y="248" width="330" height="38" rx="19" fill="none" stroke="url(#accent)" stroke-width="2"/>
-  <text x="600" y="273" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#e2e8f0">Superpowers is for coders. This is for everyone else.</text>
+
+  <!-- background -->
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#dots)"/>
+  <circle cx="1120" cy="-30" r="190" fill="#38bdf8" opacity="0.10"/>
+  <circle cx="1120" cy="-30" r="120" fill="none" stroke="#38bdf8" stroke-opacity="0.22" stroke-width="1.5"/>
+  <circle cx="80" cy="360" r="160" fill="#a78bfa" opacity="0.10"/>
+  <circle cx="80" cy="360" r="95" fill="none" stroke="#a78bfa" stroke-opacity="0.22" stroke-width="1.5"/>
+  <path d="M0 308 Q 300 282 600 302 T 1200 296 V340 H0 Z" fill="#ffffff" opacity="0.035"/>
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
+
+  <!-- top badge -->
+  <g>
+    <rect x="390" y="26" width="420" height="30" rx="15" fill="#ffffff" fill-opacity="0.07" stroke="#7dd3fc" stroke-opacity="0.45"/>
+    <text x="600" y="46" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3" fill="#bae6fd">OPEN SOURCE  &#183;  12 FREE SKILLS</text>
+  </g>
+
+  <!-- title -->
+  <text x="600" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="bold" fill="#ffffff">Skills for <tspan fill="url(#accent)">Everyone</tspan></text>
+
+  <!-- subtitle -->
+  <text x="600" y="176" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#dbe7f5">12 Agent Skills for Freelancers, Students &amp; First Jobs</text>
+
+  <!-- platforms -->
+  <text x="600" y="220" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#94a9c7">Claude Code  &#8226;  Google Antigravity  &#8226;  Cursor  &#8226;  Codex  &#8226;  Gemini CLI</text>
+
+  <!-- tagline pill: width 720 for ~560px text = comfortable padding both sides -->
+  <g>
+    <rect x="210" y="248" width="780" height="48" rx="24" fill="url(#pillfill)" stroke="url(#accent)" stroke-width="1.6"/>
+    <text x="600" y="278" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#f1f5f9"><tspan font-weight="bold" fill="#7dd3fc">Superpowers is for coders.</tspan>  This is for everyone else.</text>
+  </g>
 </svg>
